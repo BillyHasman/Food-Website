@@ -1,0 +1,120 @@
+.about-us {
+    width: auto;
+    min-height: 84.3vh;
+    height: auto;
+    background: #242424;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    img {
+      width: 250px;
+      border-radius:10px;
+      transition: all 0.2s ease;
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  
+    &-grid {
+      &-controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        button {
+          margin-top: 15px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          outline: none;
+          background: #000;
+          color: #fff;
+          font-size: 18px;
+          border-radius: 10px;
+          cursor: pointer;
+  
+        }
+      }
+  
+      &-instructions {
+        text-align: center;
+        padding: 10px;
+  
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {  
+    .about-us {
+        width: 100%;
+        height: auto;
+        background: #242424;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        img {
+          width: 250px;
+          border-radius:10px;
+          transition: all 0.2s ease;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+
+        .credits {
+          width: auto;
+          padding: auto;
+          overflow: auto;
+          color:#fff;
+          font-size:13px;
+          padding:5px 0px;
+        }
+      
+        &-grid {
+          &-controls {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            button {
+              margin-top: 15px;
+              padding: 10px;
+              border: 1px solid #ccc;
+              outline: none;
+              background: #000;
+              color: #fff;
+              font-size: 18px;
+              border-radius: 10px;
+              cursor: pointer;
+      
+            }
+          }
+      
+          &-instructions {
+            text-align: center;
+                 
+            p {
+              font-size: 18px;    
+              padding: 20px 25px 0px;   
+            }
+          }
+        }
+      }
+  }
+
+  .about-us-grid, .about-us-grid-instructions {
+    max-width: 100%;
+  }
+
+   
+ 
