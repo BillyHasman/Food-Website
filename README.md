@@ -8,7 +8,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ```bash
 # Clone the repository to your local environment
-git clone https://github.com/your-username/Food-Website.git
+git clone https://github.com/BillyHasmanFood-Website.git
 
 # Move into the project directory
 cd Food-Website
